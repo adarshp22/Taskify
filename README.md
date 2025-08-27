@@ -1,8 +1,10 @@
-## 📌 About  
+## 📌 Taskify
+- * Deployment URL: https://taskify-ui-flax.vercel.app/
 Taskify is a simple **Task Management Application** built using:  
 - **Frontend:** React 
 - **Backend:** Node.js + Express  
 - **Database:** MongoDB  
+
 
 It allows users to:  
 - Create tasks  
