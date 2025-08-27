@@ -1,10 +1,16 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const DB_URL = process.env.DB_URL;
+const TaskSchema = new Schema({
+    taskName: {
+        type: String,
+        required: true
+    },
+    isDone: {
+        type: Boolean,
+        required: true
+    }
+});
 
-mongoose.connect(DB_URL)
-    .then(() => {
-        console.log('MongoDB is Connected...');
-    }).catch((err) => {
-        console.log('MongoDB Conn Error...', err);
-    })
+const TaskModel = mongoose.model('todos', TaskSchema);
+module.exports = TaskModel;
