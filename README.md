@@ -12,8 +12,6 @@ It allows users to:
 - Update tasks  
 - Delete tasks  
 
-Yes ✅, this project uses a **REST API** for communication between frontend and backend.  
-
 ---
 
 ## 🛠️ Installation & Setup  
