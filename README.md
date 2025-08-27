@@ -1,6 +1,6 @@
 ## 📌 About  
 Taskify is a simple **Task Management Application** built using:  
-- **Frontend:** React + TailwindCSS  
+- **Frontend:** React 
 - **Backend:** Node.js + Express  
 - **Database:** MongoDB  
 
