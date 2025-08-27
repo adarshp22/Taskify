@@ -78,15 +78,8 @@ Responsive frontend with React
 🤝 Contributing
 Pull requests are welcome.
 
-📜 License
-This project is licensed under the MIT License.
 
-pgsql
-Copy code
 
-👉 Yes, you’ve used **REST API** since your backend defines routes like `/tasks` with `GET`, `POST`, `PUT`, `DELETE`.  
-
-Do you also want me to add **example screenshots** (frontend UI + API response) section in the README for better presentation?
 
 
 
